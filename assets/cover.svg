@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0ea5a6" />
+    </linearGradient>
+    <filter id="f" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20" result="b" />
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" fill="url(#g)" />
+  <g transform="translate(60,40)">
+    <rect x="0" y="0" width="1080" height="280" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" />
+    <g transform="translate(40,28)">
+      <text x="0" y="48" fill="#ffffff" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="40" font-weight="700">Proyecto Análisis de Videojuegos</text>
+      <text x="0" y="90" fill="#e6fdfd" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="20">Exploración, limpieza y visualización de datos de ventas de videojuegos</text>
+      <g transform="translate(0,120)">
+        <rect x="0" y="0" width="56" height="56" rx="8" fill="#ffffff" opacity="0.08" />
+        <text x="72" y="36" fill="#ffffff" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="18">Dataset: vgsales (vgsales_clean.csv)</text>
+      </g>
+      <g transform="translate(0,170)">
+        <text x="0" y="0" fill="#c7fffe" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16">Jupyter Notebooks • Limpieza • Análisis estadístico • Visualizaciones • Dashboard</text>
+      </g>
+    </g>
+    <g transform="translate(900,28)">
+      <circle cx="0" cy="0" r="56" fill="#ffffff" opacity="0.08" />
+      <text x="-4" y="10" fill="#ffffff" font-size="64" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="700">VG</text>
+    </g>
+  </g>
+</svg>
