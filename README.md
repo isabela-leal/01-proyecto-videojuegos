@@ -32,10 +32,6 @@ Este repositorio contiene un proyecto de análisis de datos sobre ventas de vide
 - Fuente principal: `data/vgsales.csv` (original).
 - Versión preparada y lista para análisis: `data/vgsales_clean.csv`.
 
-## 🤝 Contribuciones
-
-Si quieres contribuir: abre un issue o envía un pull request con cambios pequeños y claras descripciones.
-
 ## 🧑‍💻 Autor y contacto
 
 - Proyecto: *01-proyecto-videojuegos* — mantenido por el autor del repositorio.
