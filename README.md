@@ -1,40 +1,38 @@
 <p align="center">
-  <img src="assets/cover.svg" alt="Portada - Proyecto Videojuegos" style="max-width:100%; height:auto;" />
+  <img src="assets/cover.svg" alt="Cover - Video Game Project" style="max-width:100%; height:auto;" />
 </p>
 
-# Proyecto: Análisis de Videojuegos 🎮
+# Project: Video Game Analysis 🎮
 
-**Exploración, limpieza y visualización de datos de ventas de videojuegos**
-
----
-
-## 📌 Resumen
-
-Este repositorio contiene un proyecto de análisis de datos sobre ventas de videojuegos usando datasets `data/vgsales.csv` y `data/vgsales_clean.csv`. El objetivo es realizar limpieza, análisis estadístico, visualizaciones avanzadas y desplegar un pequeño dashboard interactivo.
-
-## 🔍 Estructura principal del proyecto
-
-- `data/` — Datasets originales y limpios (`vgsales.csv`, `vgsales_clean.csv`).
-- `notebooks/` — Notebooks paso a paso: carga, EDA, limpieza, análisis y visualizaciones.
-- `panel/` — Aplicación de panel/dashboard (`app_pr.py`) y componentes UI en `panel/ui/`.
-- `utils/` — Utilidades para configuración y carga de datos (`config.py`, `data_loader.py`).
-
-## ▶️ Uso rápido
-
-1. Instala dependencias (ej. `pip install -r requirements.txt` si existe).
-2. Explora los notebooks en `notebooks/` con Jupyter.
-3. Ejecuta el dashboard: `python panel/app_pr.py`.
-
-> 💡 Nota: Asegúrate de tener instalado `panel` y `pandas` para el dashboard y los notebooks.
-
-## 🧾 Datos
-
-- Fuente principal: `data/vgsales.csv` (original).
-- Versión preparada y lista para análisis: `data/vgsales_clean.csv`.
-
-## 🧑‍💻 Autor y contacto
-
-- Proyecto: *01-proyecto-videojuegos* — mantenido por el autor del repositorio.
+**Exploration, cleaning, and visualization of video game sales data**
 
 ---
+
+## 📌 Summary
+
+This repository contains a data analysis project on video game sales using the datasets `data/vgsales.csv` and `data/vgsales_clean.csv`. The goal is to perform cleaning, statistical analysis, advanced visualizations, and deploy a small interactive dashboard.
+
+## 🔍 Main Project Structure
+
+- `data/` — Original and cleaned datasets (`vgsales.csv`, `vgsales_clean.csv`).
+- `notebooks/` — Step-by-step notebooks: loading, EDA, cleaning, analysis, and visualizations.
+- `panel/` — Panel/dashboard application (`app_pr.py`) and UI components in `panel/ui/`.
+- `utils/` — Utilities for configuration and data loading (`config.py`, `data_loader.py`).
+
+## ▶️ Quick Start
+
+1. Install dependencies (e.g., `pip install -r requirements.txt` if available).  
+2. Explore the notebooks in `notebooks/` using Jupyter.  
+3. Run the dashboard: `python panel/app_pr.py`.
+
+> 💡 Note: Make sure to have `panel` and `pandas` installed for the dashboard and notebooks.
+
+## 🧾 Data
+
+- Main source: `data/vgsales.csv` (original).  
+- Prepared and analysis-ready version: `data/vgsales_clean.csv`.
+
+## 🧑‍💻 Author & Contact
+
+- Project: *01-proyecto-videojuegos* — maintained by the repository author.
 
